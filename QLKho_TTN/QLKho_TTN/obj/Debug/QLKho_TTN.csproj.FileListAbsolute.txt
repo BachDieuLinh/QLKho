@@ -8,3 +8,6 @@ c:\users\huyen de\documents\visual studio 2012\Projects\QLKho_TTN\QLKho_TTN\obj\
 c:\users\huyen de\documents\visual studio 2012\Projects\QLKho_TTN\QLKho_TTN\obj\Debug\QLKho_TTN.csproj.GenerateResource.Cache
 c:\users\huyen de\documents\visual studio 2012\Projects\QLKho_TTN\QLKho_TTN\obj\Debug\QLKho_TTN.exe
 c:\users\huyen de\documents\visual studio 2012\Projects\QLKho_TTN\QLKho_TTN\obj\Debug\QLKho_TTN.pdb
+E:\Nam 4 ki 1\TT nhóm\QLKho\QLKho_TTN\QLKho_TTN\bin\Debug\QLKho_TTN.exe.config
+E:\Nam 4 ki 1\TT nhóm\QLKho\QLKho_TTN\QLKho_TTN\obj\Debug\QLKho_TTN.exe
+E:\Nam 4 ki 1\TT nhóm\QLKho\QLKho_TTN\QLKho_TTN\obj\Debug\QLKho_TTN.pdb

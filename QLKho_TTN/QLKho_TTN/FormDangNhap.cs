@@ -19,10 +19,12 @@ namespace QLKho_TTN
 
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
-            FormMenu frmMenu = new FormMenu();
+            FormNhapHang_NV frmNhhnv = new FormNhapHang_NV();
+            frmNhhnv.Show();
+           /* FormMenu frmMenu = new FormMenu();
             // Form frm = new Form();
             if (txtTenDN.Text == "admin" && txtMK.Text == "123456")
-                frmMenu.Show();
+                frmMenu.Show();*/
         }
 
     

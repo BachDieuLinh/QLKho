@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace QLKho_TTN
 {
-    public partial class FormMenu : Form
+    public partial class FormNhapHang_NCC : Form
     {
-        public FormMenu()
+        public FormNhapHang_NCC()
         {
             InitializeComponent();
-        }
-
-        private void nhậpHàngToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            FormNhapHang frmNhapHang = new FormNhapHang();
-            frmNhapHang.Show();
         }
     }
 }

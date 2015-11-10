@@ -18,7 +18,6 @@ E:\Nam 4 ki 1\TT nhóm\QLKho\QLKho_TTN\QLKho_TTN\obj\Debug\QLKho_TTN.FormDangNha
 E:\Nam 4 ki 1\TT nhóm\QLKho\QLKho_TTN\QLKho_TTN\obj\Debug\QLKho_TTN.FormHangHoa.resources
 E:\Nam 4 ki 1\TT nhóm\QLKho\QLKho_TTN\QLKho_TTN\obj\Debug\QLKho_TTN.FormMenu.resources
 E:\Nam 4 ki 1\TT nhóm\QLKho\QLKho_TTN\QLKho_TTN\obj\Debug\QLKho_TTN.FormNhapHang.resources
-E:\Nam 4 ki 1\TT nhóm\QLKho\QLKho_TTN\QLKho_TTN\obj\Debug\QLKho_TTN.FormNhapHang_NCC.resources
-E:\Nam 4 ki 1\TT nhóm\QLKho\QLKho_TTN\QLKho_TTN\obj\Debug\QLKho_TTN.FormNhapHang_NV.resources
 E:\Nam 4 ki 1\TT nhóm\QLKho\QLKho_TTN\QLKho_TTN\obj\Debug\QLKho_TTN.Properties.Resources.resources
 E:\Nam 4 ki 1\TT nhóm\QLKho\QLKho_TTN\QLKho_TTN\obj\Debug\QLKho_TTN.csproj.GenerateResource.Cache
+E:\Nam 4 ki 1\TT nhóm\QLKho\QLKho_TTN\QLKho_TTN\obj\Debug\QLKho_TTN.FormXuatHang.resources

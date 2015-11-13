@@ -45,6 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormTimKiemHangHoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTimKiemHangHoa.Designer.cs">
+      <DependentUpon>FormTimKiemHangHoa.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormXuatHang.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,6 +103,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormNhapHang.resx">
       <DependentUpon>FormNhapHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTimKiemHangHoa.resx">
+      <DependentUpon>FormTimKiemHangHoa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormXuatHang.resx">
       <DependentUpon>FormXuatHang.cs</DependentUpon>

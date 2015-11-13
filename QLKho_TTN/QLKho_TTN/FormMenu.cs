@@ -22,5 +22,11 @@ namespace QLKho_TTN
             FormNhapHang frmNhapHang = new FormNhapHang();
             frmNhapHang.Show();
         }
+
+        private void tìmKiếmHàngHóaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormTimKiemHangHoa frmTKHH = new FormTimKiemHangHoa();
+            frmTKHH.Show();
+        }
     }
 }

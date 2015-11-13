@@ -22,5 +22,22 @@ namespace QLKho_TTN
             con.Close();
             return dt;
         }
+        public DataTable TimKiemMaHH(string MaHH)
+        {
+            string str = "Sea_MaHH";
+             DataTable dt = new DataTable();
+            SqlConnection con = new SqlConnection(KetNoiDB.KetNoi());
+            con.Open();
+            SqlCommand cmd = new SqlCommand(str, con);
+            cmd.CommandType = CommandType.StoredProcedure;
+             cmd.ExecuteNonQuery();
+            cmd.Parameters.AddWithValue("@MaHH", MaHH);
+            SqlDataAdapter ad = new SqlDataAdapter(str, con);
+             ad.Fill(dt);
+          
+            cmd.Dispose();
+            con.Close();
+            return 
+        }
     }
 }

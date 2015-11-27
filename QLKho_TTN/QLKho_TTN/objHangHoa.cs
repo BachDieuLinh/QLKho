@@ -22,22 +22,34 @@ namespace QLKho_TTN
             con.Close();
             return dt;
         }
+
         public DataTable TimKiemMaHH(string MaHH)
         {
-            string str = "Sea_MaHH";
-             DataTable dt = new DataTable();
+            DataTable dt = new DataTable();
+            string sql = "Sea_MaHH";
             SqlConnection con = new SqlConnection(KetNoiDB.KetNoi());
             con.Open();
-            SqlCommand cmd = new SqlCommand(str, con);
+            SqlCommand cmd = new SqlCommand(sql, con);
             cmd.CommandType = CommandType.StoredProcedure;
-             cmd.ExecuteNonQuery();
             cmd.Parameters.AddWithValue("@MaHH", MaHH);
-            SqlDataAdapter ad = new SqlDataAdapter(str, con);
-             ad.Fill(dt);
-          
-            cmd.Dispose();
-            con.Close();
-            return 
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            da.Fill(dt);
+            return dt;
+
+        }
+        public DataTable TimKiemTenHH(string TenHH)
+        {
+            DataTable dt = new DataTable();
+            string sql = "Sea_TenHH";
+            SqlConnection con = new SqlConnection(KetNoiDB.KetNoi());
+            con.Open();
+            SqlCommand cmd = new SqlCommand(sql, con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@TenHH", TenHH);
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            da.Fill(dt);
+            return dt;
+
         }
     }
 }

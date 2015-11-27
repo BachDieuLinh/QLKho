@@ -21,3 +21,4 @@ E:\Nam 4 ki 1\TT nhóm\QLKho\QLKho_TTN\QLKho_TTN\obj\Debug\QLKho_TTN.FormNhapHan
 E:\Nam 4 ki 1\TT nhóm\QLKho\QLKho_TTN\QLKho_TTN\obj\Debug\QLKho_TTN.Properties.Resources.resources
 E:\Nam 4 ki 1\TT nhóm\QLKho\QLKho_TTN\QLKho_TTN\obj\Debug\QLKho_TTN.csproj.GenerateResource.Cache
 E:\Nam 4 ki 1\TT nhóm\QLKho\QLKho_TTN\QLKho_TTN\obj\Debug\QLKho_TTN.FormXuatHang.resources
+E:\Nam 4 ki 1\TT nhóm\QLKho\QLKho_TTN\QLKho_TTN\obj\Debug\QLKho_TTN.FormTimKiemHangHoa.resources

@@ -12,6 +12,7 @@ namespace QLKho_TTN
 {
     public partial class FormDangNhap : Form
     {
+        objDangNhap DN = new objDangNhap();
         public FormDangNhap()
         {
             InitializeComponent();
@@ -21,11 +22,14 @@ namespace QLKho_TTN
         {
           
 
-           /* FormMenu frmMenu = new FormMenu();
-            // Form frm = new Form();
-            if (txtTenDN.Text == "admin" && txtMK.Text == "123456")
-                frmMenu.Show();*/
+            FormMenu frmMenu = new FormMenu();
+            Form frm = new Form();
+            DataTable dt = new DataTable();
+            dt = DN.DangNhap(txtTenDN.Text, txtMK.Text);
+            if (dt.Rows != null) frmMenu.Show();
+
         }
+
 
     
     }

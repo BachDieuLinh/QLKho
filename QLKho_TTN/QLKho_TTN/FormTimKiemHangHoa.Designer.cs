@@ -40,12 +40,14 @@
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvHH)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.btnSeach);
             this.groupBox1.Controls.Add(this.txtSeach);
             this.groupBox1.Controls.Add(this.rbTenHH);
@@ -150,6 +152,15 @@
             this.Column6.HeaderText = "Giá bán";
             this.Column6.Name = "Column6";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(6, 55);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(139, 13);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Nhập thông tin cần tìm kiếm";
+            // 
             // FormTimKiemHangHoa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -158,7 +169,7 @@
             this.Controls.Add(this.dgvHH);
             this.Controls.Add(this.groupBox1);
             this.Name = "FormTimKiemHangHoa";
-            this.Text = "FormTimKiemHangHoa";
+            this.Text = "Tìm kiếm hàng hóa";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvHH)).EndInit();
@@ -180,5 +191,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
+        private System.Windows.Forms.Label label1;
     }
 }

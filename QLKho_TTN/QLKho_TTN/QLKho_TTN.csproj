@@ -83,6 +83,7 @@
       <DependentUpon>FormNhapHang.cs</DependentUpon>
     </Compile>
     <Compile Include="objChiTietXuat.cs" />
+    <Compile Include="objDangNhap.cs" />
     <Compile Include="objHangHoa.cs" />
     <Compile Include="KetNoiDB.cs" />
     <Compile Include="objKhachHang.cs" />

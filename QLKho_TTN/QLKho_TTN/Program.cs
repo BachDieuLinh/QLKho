@@ -16,7 +16,7 @@ namespace QLKho_TTN
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormTimKiemHangHoa());
+            Application.Run(new FormDangNhap());
         }
     }
 }

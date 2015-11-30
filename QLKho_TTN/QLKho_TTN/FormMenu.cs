@@ -27,6 +27,7 @@ namespace QLKho_TTN
         {
             FormTimKiemHangHoa frmTKHH = new FormTimKiemHangHoa();
             frmTKHH.Show();
+
         }
     }
 }

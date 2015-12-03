@@ -55,6 +55,16 @@ namespace QLKho_TTN
                 str = Application.StartupPath + "\\Huong Dan\\Form Thong Ke.mht";
                 webBrowser1.Navigate(str);
             }
+            if (treeView1.SelectedNode.Name == "root_HD_NH")
+            {
+                str = Application.StartupPath + "\\Huong Dan\\Form Nhap Hang.mht";
+                webBrowser1.Navigate(str);
+            }
+            if (treeView1.SelectedNode.Name == "root_HD_XH")
+            {
+                str = Application.StartupPath + "\\Huong Dan\\Form Xuat Hang.mht";
+                webBrowser1.Navigate(str);
+            }
             if (treeView1.SelectedNode.Name == "root_HD_KH")
             {
                 str = Application.StartupPath + "\\Huong Dan\\Form Khach Hang.mht";

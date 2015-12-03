@@ -40,12 +40,16 @@
             System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Form Hàng Hóa", new System.Windows.Forms.TreeNode[] {
             treeNode6,
             treeNode7});
-            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Form Khách Hàng");
-            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("HƯỚNG DẪN SỬ DỤNG", new System.Windows.Forms.TreeNode[] {
+            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Form Nhập Hàng");
+            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("Form Xuất Hàng");
+            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("Form Khách Hàng");
+            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("HƯỚNG DẪN SỬ DỤNG", new System.Windows.Forms.TreeNode[] {
             treeNode4,
             treeNode5,
             treeNode8,
-            treeNode9});
+            treeNode9,
+            treeNode10,
+            treeNode11});
             this.treeView1 = new System.Windows.Forms.TreeView();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
             this.SuspendLayout();
@@ -72,13 +76,17 @@
             treeNode7.Text = "Form Thống kê hàng hóa";
             treeNode8.Name = "root_HD_HH";
             treeNode8.Text = "Form Hàng Hóa";
-            treeNode9.Name = "root_HD_KH";
-            treeNode9.Text = "Form Khách Hàng";
-            treeNode10.Name = "root_HD";
-            treeNode10.Text = "HƯỚNG DẪN SỬ DỤNG";
+            treeNode9.Name = "root_HD_NH";
+            treeNode9.Text = "Form Nhập Hàng";
+            treeNode10.Name = "root_HD_XH";
+            treeNode10.Text = "Form Xuất Hàng";
+            treeNode11.Name = "root_HD_KH";
+            treeNode11.Text = "Form Khách Hàng";
+            treeNode12.Name = "root_HD";
+            treeNode12.Text = "HƯỚNG DẪN SỬ DỤNG";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
             treeNode3,
-            treeNode10});
+            treeNode12});
             this.treeView1.Size = new System.Drawing.Size(228, 367);
             this.treeView1.TabIndex = 2;
             this.treeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterSelect);

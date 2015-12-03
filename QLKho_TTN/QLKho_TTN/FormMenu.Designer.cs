@@ -44,6 +44,7 @@
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.hàngHóaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -83,7 +84,8 @@
             // 
             this.hàngHóaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tìmKiếmHàngHóaToolStripMenuItem,
-            this.thốngKêHàngHóaToolStripMenuItem});
+            this.thốngKêHàngHóaToolStripMenuItem,
+            this.hàngHóaToolStripMenuItem1});
             this.hàngHóaToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.hàngHóaToolStripMenuItem.Name = "hàngHóaToolStripMenuItem";
             this.hàngHóaToolStripMenuItem.Size = new System.Drawing.Size(81, 21);
@@ -177,6 +179,13 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
+            // hàngHóaToolStripMenuItem1
+            // 
+            this.hàngHóaToolStripMenuItem1.Name = "hàngHóaToolStripMenuItem1";
+            this.hàngHóaToolStripMenuItem1.Size = new System.Drawing.Size(197, 22);
+            this.hàngHóaToolStripMenuItem1.Text = "Hàng hóa";
+            this.hàngHóaToolStripMenuItem1.Click += new System.EventHandler(this.hàngHóaToolStripMenuItem1_Click);
+            // 
             // FormMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -215,5 +224,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ToolStripMenuItem thốngKêHàngHóaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem hàngHóaToolStripMenuItem1;
     }
 }

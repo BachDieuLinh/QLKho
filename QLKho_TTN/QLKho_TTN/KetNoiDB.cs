@@ -12,7 +12,7 @@ namespace QLKho_TTN
         SqlConnection cn = new SqlConnection();
         static public String KetNoi()
         {
-            return (@"Data Source=HOME;Initial Catalog=QLKho;Integrated Security=True");
+            return (@"Data Source=ADMINISTRATOR\LINH;Initial Catalog=QLKho;Integrated Security=True");
         }
     }
 }

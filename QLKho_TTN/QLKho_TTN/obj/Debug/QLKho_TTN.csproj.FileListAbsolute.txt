@@ -13,7 +13,6 @@ E:\Nam 4 ki 1\TT nhóm\QLKho\QLKho_TTN\QLKho_TTN\obj\Debug\QLKho_TTN.exe
 E:\Nam 4 ki 1\TT nhóm\QLKho\QLKho_TTN\QLKho_TTN\obj\Debug\QLKho_TTN.pdb
 E:\Nam 4 ki 1\TT nhóm\QLKho\QLKho_TTN\QLKho_TTN\bin\Debug\QLKho_TTN.exe
 E:\Nam 4 ki 1\TT nhóm\QLKho\QLKho_TTN\QLKho_TTN\bin\Debug\QLKho_TTN.pdb
-E:\Nam 4 ki 1\TT nhóm\QLKho\QLKho_TTN\QLKho_TTN\obj\Debug\QLKho_TTN.csprojResolveAssemblyReference.cache
 E:\Nam 4 ki 1\TT nhóm\QLKho\QLKho_TTN\QLKho_TTN\obj\Debug\QLKho_TTN.FormDangNhap.resources
 E:\Nam 4 ki 1\TT nhóm\QLKho\QLKho_TTN\QLKho_TTN\obj\Debug\QLKho_TTN.FormHangHoa.resources
 E:\Nam 4 ki 1\TT nhóm\QLKho\QLKho_TTN\QLKho_TTN\obj\Debug\QLKho_TTN.FormMenu.resources
@@ -41,3 +40,4 @@ D:\Study Kỳ 1 năm 4\Github\QLKho\QLKho_TTN\QLKho_TTN\obj\Debug\QLKho_TTN.Form
 D:\Study Kỳ 1 năm 4\Github\QLKho\QLKho_TTN\QLKho_TTN\obj\Debug\QLKho_TTN.Properties.Resources.resources
 D:\Study Kỳ 1 năm 4\Github\QLKho\QLKho_TTN\QLKho_TTN\obj\Debug\QLKho_TTN.csproj.GenerateResource.Cache
 D:\Study Kỳ 1 năm 4\Github\QLKho\QLKho_TTN\QLKho_TTN\obj\Debug\QLKho_TTN.frmHuongDan.resources
+E:\Nam 4 ki 1\TT nhóm\QLKho\QLKho_TTN\QLKho_TTN\obj\Debug\QLKho_TTN.frmHuongDan.resources

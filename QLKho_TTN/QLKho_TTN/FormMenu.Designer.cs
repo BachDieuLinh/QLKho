@@ -34,6 +34,7 @@
             this.nhânViênToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.hàngHóaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tìmKiếmHàngHóaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.thốngKêHàngHóaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.xuấtNhậpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nhậpHàngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.xuấtHàngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -42,7 +43,6 @@
             this.trợGiúpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.label1 = new System.Windows.Forms.Label();
-            this.thốngKêHàngHóaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -97,6 +97,13 @@
             this.tìmKiếmHàngHóaToolStripMenuItem.Text = "Tìm kiếm hàng hóa";
             this.tìmKiếmHàngHóaToolStripMenuItem.Click += new System.EventHandler(this.tìmKiếmHàngHóaToolStripMenuItem_Click);
             // 
+            // thốngKêHàngHóaToolStripMenuItem
+            // 
+            this.thốngKêHàngHóaToolStripMenuItem.Name = "thốngKêHàngHóaToolStripMenuItem";
+            this.thốngKêHàngHóaToolStripMenuItem.Size = new System.Drawing.Size(197, 22);
+            this.thốngKêHàngHóaToolStripMenuItem.Text = "Thống kê hàng hóa";
+            this.thốngKêHàngHóaToolStripMenuItem.Click += new System.EventHandler(this.thốngKêHàngHóaToolStripMenuItem_Click);
+            // 
             // xuấtNhậpToolStripMenuItem
             // 
             this.xuấtNhậpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -141,6 +148,7 @@
             this.trợGiúpToolStripMenuItem.Name = "trợGiúpToolStripMenuItem";
             this.trợGiúpToolStripMenuItem.Size = new System.Drawing.Size(73, 21);
             this.trợGiúpToolStripMenuItem.Text = "Trợ giúp";
+            this.trợGiúpToolStripMenuItem.Click += new System.EventHandler(this.trợGiúpToolStripMenuItem_Click);
             // 
             // imageList1
             // 
@@ -151,20 +159,13 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.DimGray;
             this.label1.Location = new System.Drawing.Point(129, 64);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(364, 30);
+            this.label1.Size = new System.Drawing.Size(339, 29);
             this.label1.TabIndex = 2;
             this.label1.Text = "Phần mềm quản lý kho hàng";
-            // 
-            // thốngKêHàngHóaToolStripMenuItem
-            // 
-            this.thốngKêHàngHóaToolStripMenuItem.Name = "thốngKêHàngHóaToolStripMenuItem";
-            this.thốngKêHàngHóaToolStripMenuItem.Size = new System.Drawing.Size(197, 22);
-            this.thốngKêHàngHóaToolStripMenuItem.Text = "Thống kê hàng hóa";
-            this.thốngKêHàngHóaToolStripMenuItem.Click += new System.EventHandler(this.thốngKêHàngHóaToolStripMenuItem_Click);
             // 
             // pictureBox1
             // 
@@ -178,13 +179,13 @@
             // 
             // FormMenu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(660, 437);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.menuStrip1);
-            this.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "FormMenu";

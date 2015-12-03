@@ -152,5 +152,10 @@ namespace QLKho_TTN
             HienThiCTN();
         }
 
+        private void FormNhapHang_Load(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

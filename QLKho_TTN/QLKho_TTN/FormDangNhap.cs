@@ -26,8 +26,19 @@ namespace QLKho_TTN
             Form frm = new Form();
             DataTable dt = new DataTable();
             dt = DN.DangNhap(txtTenDN.Text, txtMK.Text);
-            if (dt.Rows != null) frmMenu.Show();
+            if (dt.Rows.Count != 0)
+            {
+                this.Hide();
+                frmMenu.ShowDialog();
+                this.Show();
+            }
+            else MessageBox.Show("Đăng nhập không thành công!");
 
+        }
+
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
 
 

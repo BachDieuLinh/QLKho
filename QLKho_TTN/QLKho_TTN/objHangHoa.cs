@@ -23,6 +23,45 @@ namespace QLKho_TTN
             return dt;
         }
 
+        
+
+        public DataTable SXHangHoa_SL()
+        {
+            string str = "SELECT * FROM HANGHOA ORDER BY SoLuong dESC";
+            DataTable dt = new DataTable();
+            SqlConnection con = new SqlConnection(KetNoiDB.KetNoi());
+            con.Open();
+            SqlDataAdapter ad = new SqlDataAdapter(str, con);
+            ad.Fill(dt);
+            con.Close();
+            return dt;
+        }
+
+
+        public DataTable SXHangHoa_GN()
+        {
+            string str = "SELECT * FROM HANGHOA ORDER BY GiaNhap dESC";
+            DataTable dt = new DataTable();
+            SqlConnection con = new SqlConnection(KetNoiDB.KetNoi());
+            con.Open();
+            SqlDataAdapter ad = new SqlDataAdapter(str, con);
+            ad.Fill(dt);
+            con.Close();
+            return dt;
+        }
+
+        public DataTable SXHangHoa_GB()
+        {
+            string str = "SELECT * FROM HANGHOA ORDER BY GiaBan dESC";
+            DataTable dt = new DataTable();
+            SqlConnection con = new SqlConnection(KetNoiDB.KetNoi());
+            con.Open();
+            SqlDataAdapter ad = new SqlDataAdapter(str, con);
+            ad.Fill(dt);
+            con.Close();
+            return dt;
+        }
+
         public DataTable TimKiemMaHH(string MaHH)
         {
             DataTable dt = new DataTable();
@@ -50,6 +89,55 @@ namespace QLKho_TTN
             da.Fill(dt);
             return dt;
 
+        }
+        public void ThemHangHoa(string MaHH ,string TenHH, string DVT, int SoLuong, float GiaNhap, float GiaBan)
+        {
+            string str = "ADD_HH";
+            SqlConnection con = new SqlConnection(KetNoiDB.KetNoi());
+            con.Open();
+            SqlCommand cmd = new SqlCommand(str, con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@MaHH", MaHH);
+            cmd.Parameters.AddWithValue("@TenHH",TenHH);
+            cmd.Parameters.AddWithValue("@DVT", DVT);
+            cmd.Parameters.AddWithValue("@SoLuong", SoLuong);
+            cmd.Parameters.AddWithValue("@GiaNhap", GiaNhap);
+            cmd.Parameters.AddWithValue("@GiaBan", GiaBan);
+            cmd.ExecuteNonQuery();
+            cmd.Dispose();
+            con.Close();
+        }
+
+        public void SuaHangHoa(string MaHH, string TenHH, string DVT, int SoLuong, float GiaNhap, float GiaBan)
+        {
+            string str = "Upd_HH";
+            SqlConnection con = new SqlConnection(KetNoiDB.KetNoi());
+            con.Open();
+            SqlCommand cmd = new SqlCommand(str, con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@MaHH", MaHH);
+            cmd.Parameters.AddWithValue("@TenHH", TenHH);
+            cmd.Parameters.AddWithValue("@DVT", DVT);
+            cmd.Parameters.AddWithValue("@SoLuong", SoLuong);
+            cmd.Parameters.AddWithValue("@GiaNhap", GiaNhap);
+            cmd.Parameters.AddWithValue("@GiaBan", GiaBan);
+            cmd.ExecuteNonQuery();
+            cmd.Dispose();
+            con.Close();
+        }
+
+
+        public void XoaHangHoa(string MaHH)
+        {
+            string str = "Del_HH";
+            SqlConnection con = new SqlConnection(KetNoiDB.KetNoi());
+            con.Open();
+            SqlCommand cmd = new SqlCommand(str, con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@MaHH", MaHH);
+            cmd.ExecuteNonQuery();
+            cmd.Dispose();
+            con.Close();
         }
     }
 }

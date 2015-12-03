@@ -29,5 +29,22 @@ namespace QLKho_TTN
             frmTKHH.Show();
 
         }
+
+        private void hàngHóaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormHangHoa frmHangHoa = new FormHangHoa();
+            frmHangHoa.Show();
+        }
+
+        private void thốngKêHàngHóaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormThongKeHangHoa frmThongKeHangHoa = new FormThongKeHangHoa();
+            frmThongKeHangHoa.Show();
+        }
+
+        private void kháchHàngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -45,6 +45,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormKhachHang.Designer.cs">
+      <DependentUpon>FormKhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormThongKeHangHoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormThongKeHangHoa.Designer.cs">
+      <DependentUpon>FormThongKeHangHoa.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormTimKiemHangHoa.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,11 +111,17 @@
     <EmbeddedResource Include="FormHangHoa.resx">
       <DependentUpon>FormHangHoa.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormKhachHang.resx">
+      <DependentUpon>FormKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormMenu.resx">
       <DependentUpon>FormMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormNhapHang.resx">
       <DependentUpon>FormNhapHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormThongKeHangHoa.resx">
+      <DependentUpon>FormThongKeHangHoa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormTimKiemHangHoa.resx">
       <DependentUpon>FormTimKiemHangHoa.cs</DependentUpon>

@@ -41,3 +41,4 @@ D:\Study Kỳ 1 năm 4\Github\QLKho\QLKho_TTN\QLKho_TTN\obj\Debug\QLKho_TTN.Prop
 D:\Study Kỳ 1 năm 4\Github\QLKho\QLKho_TTN\QLKho_TTN\obj\Debug\QLKho_TTN.csproj.GenerateResource.Cache
 D:\Study Kỳ 1 năm 4\Github\QLKho\QLKho_TTN\QLKho_TTN\obj\Debug\QLKho_TTN.frmHuongDan.resources
 E:\Nam 4 ki 1\TT nhóm\QLKho\QLKho_TTN\QLKho_TTN\obj\Debug\QLKho_TTN.frmHuongDan.resources
+E:\Nam 4 ki 1\TT nhóm\QLKho\QLKho_TTN\QLKho_TTN\obj\Debug\QLKho_TTN.csprojResolveAssemblyReference.cache

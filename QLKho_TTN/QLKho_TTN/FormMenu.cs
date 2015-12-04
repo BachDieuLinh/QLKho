@@ -43,7 +43,8 @@ namespace QLKho_TTN
 
         private void kháchHàngToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            FormKhachHang frmkhachhang = new FormKhachHang();
+            frmkhachhang.Show();
         }
 
         private void trợGiúpToolStripMenuItem_Click(object sender, EventArgs e)
